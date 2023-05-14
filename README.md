@@ -5,4 +5,4 @@ The heightmaps were also submitted to [BaNaNaS](https://bananas.openttd.org/), t
 
 # Curve Land
 
-![Preview for Curve Land 2](Curve Land 2/preview_grayscale.png)
+![Preview for Curve Land 2](https://raw.githubusercontent.com/ahyangyi/openttd-heightmaps/main/Curve%20Land%202/preview_grayscale.png)
