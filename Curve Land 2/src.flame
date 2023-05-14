@@ -1,5 +1,5 @@
 <Flames name="My Flames">
-<flame name="Apophysis-100203-11-OpenTTD_Challenge Yourself" version="Apophysis 2.09" size="1024 1024" center="0 0" scale="234.975" rotate="-45" oversample="1" filter="0.2" quality="1" background="0 0 0" brightness="4" gamma="4" gamma_threshold="0.04" >
+<flame name="Apophysis-100203-11-OpenTTD_Challenge Yourself" version="Apophysis 2.09" size="2048 2048" center="0 0" scale="469.95" rotate="-45" oversample="1" filter="0.2" quality="1" background="0 0 0" brightness="4" gamma="4" gamma_threshold="0.04" >
    <xform weight="0.5" color="0" spherical="0.631275472696871" ngon="0.368724527303129" coefs="-0.804037 0.889593 -0.566843 -0.266617 -0.945616 0.739959" ngon_sides="4" ngon_power="3.40104604559019" ngon_circle="0.844853203045204" ngon_corners="0.172390315480804" />
    <xform weight="0.5" color="0.5" horseshoe="0.603214740520343" stripes="0.396785259479657" coefs="0.377366 -0.648824 0.124996 -0.214095 -0.281455 0.502762" stripes_space="0.5" stripes_warp="0" />
    <xform weight="0.5" color="1" blob="0.888226472772658" stripes="0.111773527227342" coefs="0.378536 -0.21606 0.688218 -0.397955 0.979675 -0.989358" blob_low="0.270044615538791" blob_high="0.804410372953862" blob_waves="5" stripes_space="0.5" stripes_warp="0" />
