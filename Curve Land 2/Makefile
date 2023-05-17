@@ -9,13 +9,13 @@ preview-grayscale.png: preview.png
 preview.png: src.flame
 	cat src.flame | ss=0.125 qs=1000 transparency=0 out=preview.png flam3-render
 
-release: render-release-threshold.png
+release-preview:
+	convert release.png -resize 512x512 -threshold 10 release-preview.png
 
-render-release-threshold.png: render-release-grayscale.png
-	convert render-release-grayscale.png -threshold 1 render-release-threshold.png
+release: release.png
 
-render-release-grayscale.png: render-release.png
-	convert render-release.png -alpha remove -set colorspace Gray render-release-grayscale.png
+release.png: release-step1.png
+	convert release-step1.png -channel A -gamma 1.6 -background black -alpha remove -channel all -fx '(r+g+b)/3' -colorspace Gray release.png
 
-render-release.png: src.flame
-	cat src.flame | ss=4 qs=40000 transparency=0 out=render-release.png flam3-render
+release-step1.png: src.flame
+	cat src.flame | ss=4 qs=10000 transparency=1 bits=64 out=release.png flam3-render
