@@ -13,3 +13,7 @@ The curve land series center around the idea of long, snaking, interconnecting i
 The seed cannot be rendered by flam3. Hence, I can only produce a 8k version for now.
 
 ![Preview for Curve Land 3](https://raw.githubusercontent.com/ahyangyi/openttd-heightmaps/main/Curve%20Land%203/preview.png)
+
+# Fracland
+## Fracland 1
+![Preview for Fracland 1](https://raw.githubusercontent.com/ahyangyi/openttd-heightmaps/main/Fracland%201/preview.png)
