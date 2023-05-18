@@ -17,3 +17,6 @@ The seed cannot be rendered by flam3. Hence, I can only produce a 8k version for
 # Fracland
 ## Fracland 1
 ![Preview for Fracland 1](https://raw.githubusercontent.com/ahyangyi/openttd-heightmaps/main/Fracland%201/preview.png)
+
+## Fracland 2
+![Preview for Fracland 2](https://raw.githubusercontent.com/ahyangyi/openttd-heightmaps/main/Fracland%202/preview.png)
