@@ -23,8 +23,9 @@ def main():
     parser = argparse.ArgumentParser("Fractal flame to heightmap converter")
     parser.add_argument("input")
     parser.add_argument("output")
-    parser.add_argument("--gamma1", type=float, default=2.4)
-    parser.add_argument("--gamma2", type=float, default=0.7)
+    parser.add_argument("--alpha", type=float, default=1.15)
+    parser.add_argument("--gamma1", type=float, default=2.3)
+    parser.add_argument("--gamma2", type=float, default=0.65)
     parser.add_argument("--delta", type=float, default=0.125)
     args = parser.parse_args()
 
@@ -38,7 +39,7 @@ def main():
     a **= 1 / args.gamma1
 
     # Merge (naive r+g+b)
-    v = (r * 19595 + g * 38470 + b * 7471) * a / 65536
+    v = (r * 19595 + g * 38470 + b * 7471) * a / 65536 * args.alpha
 
     # Delta-processing
     n = int(1 // args.delta)
@@ -52,7 +53,7 @@ def main():
     v **= 1 / args.gamma2
 
     # Dump
-    v = (v * 255 + 0.5).astype("uint8")
+    v = np.clip(v * 255 + 0.5, 0, 255).astype("uint8")
     cv2.imwrite(args.output, v)
 
 
