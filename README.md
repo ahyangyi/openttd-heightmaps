@@ -16,6 +16,10 @@ Reproduced version: 8192×8192. (Using Apophysis with plugins)
 ## Curve Land 2
 ![Preview for Curve Land 2](https://raw.githubusercontent.com/ahyangyi/openttd-heightmaps/main/Curve%20Land%202/preview_grayscale.png)
 
+Original version: 2048×2048.
+
+Reproduced version: 16384x16384.
+
 ## Curve Land 3
 Original version: 2048×2048.
 
