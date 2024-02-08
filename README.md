@@ -14,7 +14,7 @@ Reproduced version: 8192×8192. (Using Apophysis with plugins)
 ![Preview for Curve Land 3](https://raw.githubusercontent.com/ahyangyi/openttd-heightmaps/main/Curve%20Land%201/preview.png)
 
 ## Curve Land 2
-![Preview for Curve Land 2](https://raw.githubusercontent.com/ahyangyi/openttd-heightmaps/main/Curve%20Land%202/preview_grayscale.png)
+![Preview for Curve Land 2](https://raw.githubusercontent.com/ahyangyi/openttd-heightmaps/main/Curve%20Land%202/preview.png)
 
 Original version: 2048×2048.
 
