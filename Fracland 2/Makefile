@@ -5,4 +5,4 @@ release: render.png
 	../scripts/convert.py render.png release.png
 
 render.png:
-	cat src.flame | ss=16 qs=150 transparency=1 bits=64 out=render.png flam3-render
+	cat src.flame | ss=16 qs=1000 transparency=1 bits=64 out=render.png flam3-render
