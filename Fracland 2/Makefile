@@ -1,7 +1,7 @@
-preview:
+preview: release.png
 	convert release.png -resize 512x512 preview.png
 
-release: render.png
+release.png: render.png
 	../scripts/convert.py render.png release.png
 
 render.png:
