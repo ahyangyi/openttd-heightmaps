@@ -49,3 +49,10 @@ Resolution:
 
 ## Fracland 4
 ![Preview for Fracland 4](https://raw.githubusercontent.com/ahyangyi/openttd-heightmaps/main/Fracland%204/preview.png)
+
+## Fracland 5
+New creation in 2024. I realized that all my previous heightmaps were square-shaped, and there is a certain demand in long rectangular maps. Perhaps because that’s the way to make really long distance transportation to happen.
+
+So I thought this combination of big, hilly islands and steep fjords would be fun. You can connect all the big islands without much terraforming, and you can really test the newly improved water pathfinding with these interesting waterways (and perhaps a few strategically placed canals).
+
+![Preview for Fracland 5](https://raw.githubusercontent.com/ahyangyi/openttd-heightmaps/main/Fracland%205/preview.png)
