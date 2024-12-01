@@ -1,11 +1,11 @@
-preview: release.png
-	convert release.png -resize 1024x256 preview.png
+preview.png: release-16k.png
+	convert release-16k.png -resize 1024x256 preview.png
 
-release.png: render.png
-	../scripts/convert.py render.png release.png
+release-16k.png: render-16k.png
+	../scripts/convert.py render-16k.png release-16k.png
 
-render.png:
-	cat src.flame | ss=16 qs=100000 transparency=1 bits=64 out=render.png flam3-render
+render-16k.png:
+	cat src.flame | ss=16 qs=100000 transparency=1 bits=64 out=render-16k.png flam3-render
 
 release-2k.png: render-2k.png
 	../scripts/convert.py render-2k.png --delta 0.25 release-2k.png
